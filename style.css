@@ -1,0 +1,118 @@
+.body{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+
+}
+.first .card-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    /* justify-content: center; */
+}
+.card .logo-wrapper img{
+
+    width: 90px;
+}
+
+.card a{
+    text-align: center;
+}
+a{
+
+    text-decoration: none;
+    color: #000;
+}
+/* .mobile .box1 .row .top-heading a{
+    font-size: 1.2em;
+    font-weight: bolder;
+    color: #3a77ff;
+} */
+.mobile .box1{
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 80px;
+}
+.mobile .box1 .row .top-heading{
+    display: flex;
+    justify-content: space-between;
+}
+ .box1 .row .top-heading a{
+    font-size: 1.2em;
+    font-weight: bolder;
+    color: #3a77ff;
+}
+
+.header1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 15px;
+    
+}
+.header1 .list li{
+    list-style: none;
+    display: inline;
+    margin-left: 30px;
+    size: 1em;
+ 
+}
+.header1 .list a:hover{
+    color: #3a77ff;
+    transition: .3s;
+
+}
+.container-fluid .btn-light{
+    border: 5px solid transparent;
+    border-image: linear-gradient(0deg,yellow, cyan,blue);
+    border-image-slice: 1;
+    border-radius: 10px;
+    padding: 10px;
+    border-width: 5px;
+}
+.container-fluid .d-flex .login{
+    color: #000;
+    font-weight: 700;
+    text-decoration: 2px underline;
+    padding: 20px;
+}
+.container-fluid .d-flex .login:hover{
+    text-decoration: none;
+}
+.container-fluid .d-flex .form-control{
+    border: 2px solid black;
+}
+.container-fluid .d-flex{
+    width: 50%;
+}
+.container-fluid .d-flex button{
+    width: 20%;
+}
+.logo1 img{
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+}
+.logo-wrapper img{
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+
+}
+.padding{
+    padding: 20px;
+}
+.mobile .card-body .p-icon{
+    display: flex;
+    justify-content: space-between;
+}
+.second .card-body .p-icon i:hover{
+
+    transform: scale(1.2);
+}
+.mobile .row .card img{
+    aspect-ratio: 3/4;
+    object-fit: contain;
+}
